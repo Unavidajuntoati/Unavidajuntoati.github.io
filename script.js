@@ -1,4 +1,7 @@
 const pictures = document.querySelectorAll('.Picture');
+const audio = new Audio('./cancionparamibebe.mp3')
+audio.volume = 0.5
+audio.play()
 var previousTouch = undefined;
 
 function updateElementPosition(element, event) {
